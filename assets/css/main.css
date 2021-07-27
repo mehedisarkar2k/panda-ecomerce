@@ -7,6 +7,13 @@ body {
   background: #f4f4f4;
 }
 
+/* *** *** *** *** *** *** *** *** *** *** *** *** *** *\
+## Custom Classes
+\* *** *** *** *** *** *** *** *** *** *** *** *** *** */
+
+.padding-left-50 {
+  padding-left: 50px;
+}
 .panda-rounded-pill-right {
   border-radius: 0 50rem 50rem 0;
 }
@@ -34,4 +41,30 @@ body {
 }
 .panda-button-primary:hover span {
   transform: translateX(15px);
+}
+
+/* custom styles */
+
+#hero {
+  padding-top: 6rem;
+}
+
+#category img {
+  width: auto;
+  height: 95px;
+}
+
+#category .categories {
+  background: #ccc;
+  border-radius: 1rem;
+  color: #fff;
+}
+#category .categories.watch {
+  background: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
+}
+#category .categories.bag {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+#category .categories.shoes {
+  background: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
 }
