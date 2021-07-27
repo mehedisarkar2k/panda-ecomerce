@@ -23,7 +23,7 @@ body {
 
 .panda-section-bg {
   background: linear-gradient(#feeae9, #feeae9);
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   overflow: hidden;
 }
 
@@ -74,4 +74,13 @@ body {
 
 .panda-img {
   margin-bottom: 1.5rem;
+}
+
+footer .footer-btn {
+  background: linear-gradient(180deg, #ff589b 0%, #ff136f 100%);
+  color: #fff;
+}
+
+footer .footer-btn {
+  background: linear-gradient(180deg, #ff589b 100%, #ff136f 0%);
 }
