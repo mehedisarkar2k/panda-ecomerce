@@ -55,7 +55,6 @@ body {
 }
 
 #category .categories {
-  background: #ccc;
   border-radius: 1rem;
   color: #fff;
 }
@@ -67,4 +66,8 @@ body {
 }
 #category .categories.shoes {
   background: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
+}
+
+.panda-card {
+  border-radius: 1rem;
 }
